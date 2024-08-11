@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANAHUAC</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc7nN0BLz6qqY0xN8kVE78XseeqAjgQhka7oYIDYwFQZQgqFT_0puVKRo&s=10');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Alinea el contenido hacia arriba */
+            align-items: center;
+            color: transparent; /* Oculta el texto inicialmente */
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 72px;
+            color: #111; /* Color negro fuerte */
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-top: 20vh; /* Ajusta la distancia desde la parte superior */
+            border: 10px solid transparent; /* Borde inicial transparente */
+            padding: 20px; /* Espacio interior */
+            background-image: linear-gradient(45deg, #ff0000, #ff8000, #ffff00, #80ff00, #00ff80, #0080ff, #4000ff, #bf00ff);
+            -webkit-background-clip: text; /* Clip de fondo compatible con WebKit */
+            background-clip: text;
+            -webkit-text-fill-color: transparent; /* Hace que el texto sea transparente */
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Sombra difuminada */
+        }
+        nav {
+            margin-top: 40px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 28px;
+            color: white;
+        }
+        .content {
+            max-width: 800px;
+            text-align: center;
+            margin-top: 40px;
+            color: white;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin-top: 40px;
+            font-size: 28px;
+            color: black;
+            background-color: white;
+            border: 3px solid gold;
+            border-radius: 15px;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .button:hover {
+            background-color: gold;
+            color: black;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>ANAHUAC</h1>
+    <nav>
+        <a href="#sobre-nosotros">Sobre nosotros</a>
+        <a href="#contactanos">Contáctanos</a>
+    </nav>
+    <div class="content" id="sobre-nosotros">
+        <h2>Sobre nosotros</h2>
+        <p>Bienvenido a ANAHUAC, un lugar emblemático conocido por su vibrante escena de eventos y su atractivo turístico. Aquí encontrarás una gran variedad de actividades culturales, artísticas y recreativas que atraen a visitantes de todas partes. Nuestro compromiso es ofrecer experiencias inolvidables a todos nuestros visitantes.</p>
+    </div>
+    <div class="content" id="contactanos">
+        <h2>Contáctanos</h2>
+        <p>Para más información sobre eventos y actividades, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte y asegurarnos de que tu visita a ANAHUAC sea extraordinaria.</p>
+    </div>
+    <a href="que-es-anahuac.html" class="button">Saber más</a>
+</body>
+</html>
